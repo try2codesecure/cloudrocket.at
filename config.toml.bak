@@ -1,0 +1,22 @@
+baseURL = "https://cloudrocket.at/"
+languageCode = "en-us"
+
+author = "cloudrocket"
+title = "cloudrocket"
+theme = "papermod"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
+params:
+    # home-info mode
+    homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: Welcome to my blog
+
+[[menu.main]]
+    name = "tags"
+    identifier = "tags"
+    weight = 100
+    url = "/tags/"

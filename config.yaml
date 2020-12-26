@@ -1,0 +1,81 @@
+baseURL: "https://cloudrocket.at/"
+languageCode: "en-us"
+
+author: "cloudrocket"
+title: "cloudrocket"
+theme: "papermod"
+enableRobotsTXT: true
+
+taxonomies:
+    tag: "tags"
+    category: "categories"
+
+enableEmoji: true
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    title: "cloudrocket"
+    env: production
+    # defaultTheme: light
+    # defaultTheme: dark
+    defaultTheme: auto # to switch between dark or light according to browser theme
+    disableThemeToggle: false
+    ShowReadingTime: true
+    ShowShareButtons: true
+#    disableSpecial1stPost: true
+    comments: false
+    label:
+#        text: "cloudrocket"
+        icon: /logo_small.png
+#        size: 35
+#    images: 'hello_world.jpeg'
+    assets:
+        favicon: logo.ico
+    cover:
+        linkFullImages: false
+        responsiveImages: true
+
+    # profile-mode
+    profileMode:
+        enabled: false # needs to be explicitly set
+        title: cloudrocket.at
+        imageUrl: "logo_circle.png"
+        imageWidth: 100
+        imageHeight: 100
+        #imageTitle: my image
+        buttons:
+            - name: Posts
+              url: posts
+            - name: Tags
+              url: tags
+
+    # home-info mode
+    homeInfoParams:
+        Title: "(tech) blog"
+        Content: "for all made with passion & \U0001F49A"
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/try2codesecure"
+        - name: homepage
+          url: "https://cloudrocket.at"
+        - name: rss
+          url: "http://localhost:1313/index.xml"
+
+menu:
+    main:
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 10
+        - identifier: rss
+          name: rss
+          url: "http://localhost:1313/index.xml"
+          weight: 20
+        - identifier: github
+          name: github
+          url: "https://github.com/try2codesecure"
+          weight: 30

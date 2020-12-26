@@ -1,0 +1,9 @@
+# add new theme
+git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/papermod
+
+# update themes
+git submodule update --remote --merge
+
+# add github page as submodule
+rm -Rf public
+git submodule add -b master https://github.com/try2codesecure/try2codesecure.github.io.git public
