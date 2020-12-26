@@ -6,4 +6,13 @@ git submodule update --remote --merge
 
 # add github page as submodule
 rm -Rf public
-git submodule add -b master https://github.com/try2codesecure/try2codesecure.github.io.git public
+git submodule add -b main git@github.com:try2codesecure/try2codesecure.github.io.git public
+
+# test new version with hugo
+hugo server -D
+
+# deploy new public
+hugo
+
+#deploy it
+./deploy.sh
