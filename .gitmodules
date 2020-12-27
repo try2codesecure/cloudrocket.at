@@ -4,7 +4,3 @@
 [submodule "themes/papermod"]
 	path = themes/papermod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
-[submodule "public"]
-	path = public
-	url = git@github.com:try2codesecure/try2codesecure.github.io.git
-	branch = master
