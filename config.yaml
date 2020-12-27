@@ -1,4 +1,4 @@
-baseURL: "https://cloudrocket.at/"
+baseURL: "https://www.cloudrocket.at/"
 languageCode: "en-us"
 
 author: "cloudrocket"
@@ -18,7 +18,7 @@ minify:
 
 params:
     title: "cloudrocket"
-    env: production
+    env: testing
     # defaultTheme: light
     # defaultTheme: dark
     defaultTheme: auto # to switch between dark or light according to browser theme
@@ -61,9 +61,9 @@ params:
         - name: github
           url: "https://github.com/try2codesecure"
         - name: homepage
-          url: "https://cloudrocket.at"
+          url: "https://www.cloudrocket.at"
         - name: rss
-          url: "http://localhost:1313/index.xml"
+          url: index.xml
 
 menu:
     main:
@@ -73,7 +73,7 @@ menu:
           weight: 10
         - identifier: rss
           name: rss
-          url: "http://localhost:1313/index.xml"
+          url: index.xml
           weight: 20
         - identifier: github
           name: github
