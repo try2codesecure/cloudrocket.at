@@ -6,5 +6,5 @@
 	url = https://github.com/adityatelange/hugo-PaperMod.git
 [submodule "public"]
 	path = public
-	url = https://github.com/try2codesecure/try2codesecure.github.io.git
+	url = git@github.com:try2codesecure/try2codesecure.github.io.git
 	branch = master
