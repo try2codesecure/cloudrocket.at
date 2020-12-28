@@ -33,7 +33,7 @@ params:
 #        size: 35
 #    images: 'hello_world.jpeg'
     assets:
-        favicon: logo.ico
+        favicon: favicon.png
     cover:
         linkFullImages: false
         responsiveImages: true

@@ -1,3 +1,6 @@
+# add new posts
+hugo new posts/<title>.md
+
 # add new theme
 git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/papermod
 

@@ -30,9 +30,9 @@ start ":heart:ing Hugo!"
 
 # Images
 without link
-![hello world](/hello_world.jpeg)
+![hello world](/images/2020/hello_world.jpeg)
 with link
-[![hello world](/hello_world.jpeg "Hello World")](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
+[![hello world](/images/2020/hello_world.jpeg "Hello World")](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
 
 # Items
 * Item 2
