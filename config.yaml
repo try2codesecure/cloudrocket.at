@@ -59,7 +59,7 @@ params:
             - _#devs #devops #sysops #devsecops #noops #gitops_
 
     socialIcons:
-        - name: homepage
+        - name: home
           url: "https://www.cloudrocket.at"
         - name: email
           url: mailto:mail@cloudrocket.at
