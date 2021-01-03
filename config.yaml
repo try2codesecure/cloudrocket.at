@@ -61,7 +61,7 @@ params:
         - name: homepage
           url: "https://www.cloudrocket.at"
         - name: email
-          url: "mail@cloudrocket.at"
+          url: mailto:mail@cloudrocket.at
         - name: github
           url: "https://github.com/try2codesecure"
         - name: rss
