@@ -58,10 +58,12 @@ params:
         Content: "for all made with passion & \U0001F49A"
 
     socialIcons:
-        - name: github
-          url: "https://github.com/try2codesecure"
         - name: homepage
           url: "https://www.cloudrocket.at"
+        - name: email
+          url: "mail@cloudrocket.at"
+        - name: github
+          url: "https://github.com/try2codesecure"
         - name: rss
           url: index.xml
 
