@@ -18,7 +18,7 @@ minify:
 
 params:
     title: "cloudrocket"
-    env: production
+    env: testing
     defaultTheme: auto # to switch between dark or light according to browser theme
     disableThemeToggle: false
     ShowReadingTime: true
