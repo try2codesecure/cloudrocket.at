@@ -1,4 +1,5 @@
 ---
+author: ["rainer"]
 title: "Deploy an self hosted mail server with poste.io & nginx proxy"
 date: 2021-01-02T21:27:01+01:00
 draft: false

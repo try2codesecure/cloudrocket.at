@@ -1,4 +1,5 @@
 ---
+author: ["rainer"]
 title: "Monitor OpenWrt nodes with Prometheus"
 date: 2020-12-28T21:40:49+01:00
 draft: false

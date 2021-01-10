@@ -18,13 +18,13 @@ minify:
 
 params:
     title: "cloudrocket"
-    env: testing
+    env: production
     defaultTheme: auto # to switch between dark or light according to browser theme
     disableThemeToggle: false
     ShowReadingTime: true
     ShowShareButtons: true
 #    disableSpecial1stPost: true
-    comments: false
+    comments: true
     label:
 #        text: "cloudrocket"
         icon: /logo_small.png
